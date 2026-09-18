@@ -2,7 +2,7 @@
 
 A native Windows **embedded** DLL manual-mapping injector written in C++.
 
-`Injector` loads a DLL into a running target process entirely from memory - without writing the payload to disk and without registering it with the OS loader. The target DLL is **embedded** (base64-encoded) directly into the executable at build time.
+`Maploader` loads a DLL into a running target process entirely from memory - without writing the payload to disk and without registering it with the OS loader. The target DLL is **embedded** (base64-encoded) directly into the executable at build time.
 
 This project exists **for testing and educational purposes**: it injects an arbitrary DLL into a target process entirely in memory. The build is currently configured to target **Notepad.exe** as a convenience demo, but the same technique applies to any process you own or have permission to test.
 
