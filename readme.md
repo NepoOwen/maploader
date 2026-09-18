@@ -1,4 +1,4 @@
-# Injector
+# Maploader
 
 A native Windows **embedded** DLL manual-mapping injector written in C++.
 
